@@ -1,0 +1,51 @@
+.auth-fulldiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.auth-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-google{
+    background-color: #FD5D5D;
+    color: #fff;
+    box-shadow: 3px 3px 5px #FF8080;
+    display: flex;
+    align-items: center;
+}
+.google-icon{
+    height: 1.2rem;
+    line-height: 1rem;
+}
+.user-info{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.user-info span{
+    font-family: 'Comfortaa', cursive;
+}
+.user-info span:nth-child(2){
+    margin-left: 5px;
+    color: #F76E11;
+}
+.user-button{
+    padding: 2px 15px;
+    font-size: 1rem;
+    margin-left: 5px;
+    background-color: #4D96FF;
+    color: #fff;
+    box-shadow: 3px 3px 5px #88baff;
+}
+@media only screen and (max-width: 600px) {
+    .user-info span{
+        font-size: .8rem;
+    }
+    .user-button{
+        font-size: .8rem; 
+    }
+  }

@@ -1,0 +1,11 @@
+.button-btn{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px  4px #444;
+}
+.button-btn:hover{
+    box-shadow: none;
+}
